@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Sixtyfour+Convergence&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.Logo h3{color: rgba(31, 13, 149, 0.777);
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 8px;
+  height: 72px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+ color: rgba(31, 13, 149, 0.977);
+}
+
+.Contact-head {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.Contact-head h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.Contact-head p {
+  font-weight: 500;
+}
+.all-form{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto ;
+}  
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Black-button {
+  all: unset;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 18px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  gap: 8px;
+}
+
+.White-button {
+  all: unset;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 18px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 97%;
+  border: 1px solid black;
+}
+.top {
+  display: flex;
+  gap: 32px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    gap:20px;
+}
+.form-control input{
+    height: 40px;
+    padding: 8px 8px;
+    font-size: 16px;
+}
+.form-control label{
+    position: absolute;
+    top:-13px;
+    left: 12px;
+    background-color: white;
+    padding: 0 10px;
+}
+.form-control textarea{
+    min-height: 180px;
+    padding: 16px 8px;
+    font-size: 16px;
+}
+caption{
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+margin-left: 40px;
+padding: 20px;
+text-align: center; 
+}
+td{
+  min-width: 600px;
+  max-width: 1000px;
+}
