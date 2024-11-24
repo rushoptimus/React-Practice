@@ -1,0 +1,44 @@
+.Secound{
+    padding-top: 70px;
+}
+
+.Secound-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.Score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Score h1{
+font-size: 100px;
+font-weight: 500;
+line-height: 120px;
+
+}
+.Score h3{
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+}
+
+.select_number{
+font-size: 24px;
+font-weight: 700; 
+}
+
+
+
+
+
+
+
+
+
+
